@@ -319,7 +319,9 @@
     font-size: 0.9rem;  /* Reduced button font size */
     padding: 6px 12px;
   }
-
+  .profile{
+    margin-right:50px;
+  }
   .profile-img {
     width: 150px;  /* Even smaller profile image */
     height: 150px;
