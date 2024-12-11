@@ -131,7 +131,6 @@
 }
 
 /* Mobile responsive adjustments for screens with max-width 350px */
-/* Mobile responsive adjustments for screens with max-width 350px */
 @media (max-width: 350px) {
   .About {
     padding: 8px; /* Reduced padding for ultra-small screens */
@@ -142,27 +141,23 @@
     flex-direction: column;
     align-items: flex-start; /* Align content to the left */
     padding: 5px; /* Reduced padding to avoid overflow */
-    width: 100%; /* Make the content container fill the screen */
   }
 
   .row {
     flex-direction: column;
     gap: 5px; /* Reduced gap between elements */
-    width: 100%; /* Ensure row takes full width */
+    width: 100%;
   }
 
   .column {
     max-width: 100%;
     text-align: left; /* Left-align text */
     padding: 5px;
-    word-wrap: break-word; /* Ensure text wraps to the next line properly */
-    width: 100%; /* Ensure each column uses full width */
   }
 
   .about-heading {
     font-size: 1.2rem; /* Smaller heading for small screens */
     margin-bottom: 5px; /* Reduced margin */
-    width: 100%; /* Ensure heading takes full width */
   }
 
   .about-description {
@@ -170,28 +165,23 @@
     line-height: 1.3; /* Slightly tighter line-height */
     margin-bottom: 8px; /* Reduced margin */
     text-align: left; /* Left-align text */
-    width: 100%; /* Ensure description takes full width */
   }
 
   .skills-heading {
     font-size: 1rem; /* Smaller skills heading */
     margin-top: 10px;
-    width: 100%; /* Ensure skills heading takes full width */
   }
 
   .skills-list {
     font-size: 0.75rem; /* Smaller font for skill list */
     margin-top: 5px;
     padding-left: 0;
-    width: 100%; /* Ensure skill list takes full width */
   }
 
   .profile-img {
     width: 120px; /* Further reduced profile image size */
     height: 120px; /* Maintain square aspect ratio */
     margin-bottom: 10px; /* Adjusted margin for small screens */
-    display: block; /* Ensure the image is aligned properly */
-    margin-left: auto;
-    margin-right: auto; /* Center the image horizontally */
   }
 }
+
