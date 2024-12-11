@@ -308,7 +308,7 @@
   }
 
   .main-name {
-    font-size: 2rem;  /* Adjusted font size for small screens */
+    font-size: 1.8rem;  /* Adjusted font size for small screens */
   }
 
   .typewriter-container {
@@ -324,6 +324,6 @@
     width: 150px;  /* Even smaller profile image */
     height: 150px;
     margin-bottom: 15px;
-    margin-left:40px;
+    margin-left:80px;
   }
 }
