@@ -78,45 +78,64 @@
 }
 
 /* Mobile responsive adjustments for screens with max-width 450px */
+/* Mobile responsive adjustments for screens with max-width 450px */
 @media (max-width: 450px) {
   .About {
-    padding:5px 5px; /* Reduced padding for very small screens */
+    padding: 10px; /* Reduced padding for small screens */
   }
 
   .about-content {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center; /* Center align for better look */
     padding: 10px;
   }
 
   .row {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+    align-items: center; /* Center items */
+    gap: 15px; /* Small gap between elements */
   }
 
   .column {
     max-width: 100%;
-    text-align: left;
+    text-align: center; /* Center text for better alignment */
     padding: 8px;
   }
 
   .about-heading {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
+    font-size: 1.6rem; /* Reduced font size for mobile */
+    margin-bottom: 10px; /* Smaller margin for compact layout */
   }
 
   .about-description {
-    font-size: 0.8em;
-    line-height: 1;
+    font-size: 0.9em; /* Smaller text for mobile */
+    line-height: 1.4; /* Tightened line-height for readability */
+    margin-bottom: 10px; /* Reduced margin */
+  }
+
+  .skills-heading {
+    font-size: 1.4rem; /* Slightly smaller heading */
+  }
+
+  .skills-list {
+    font-size: 0.9em; /* Smaller font for list items */
+    padding-left: 0; /* Remove default padding */
+  }
+
+  .skills-list li {
+    padding: 5px 0;
+    color: #34495e;
   }
 
   .profile-img {
-    width: 150px;
-    height: 150px;
-    margin-bottom: 10px;
+    width: 180px; /* Smaller image */
+    height: 180px; /* Maintain square aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 15px; /* Adjusted margin */
   }
 }
+
 
 /* Responsive adjustments for screens with max-width 768px */
 @media (max-width: 768px) {
