@@ -80,13 +80,13 @@
 /* Mobile responsive adjustments for screens with max-width 450px */
 @media (max-width: 450px) {
   .About {
-    padding: 10px 15px; /* Reduced padding for very small screens */
+    padding:5px 5px; /* Reduced padding for very small screens */
   }
 
   .about-content {
     flex-direction: column;
     align-items: flex-start;
-    padding: 15px;
+    padding: 10px;
   }
 
   .row {
@@ -102,27 +102,19 @@
   }
 
   .about-heading {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-bottom: 15px;
   }
 
   .about-description {
-    font-size: 1em;
-    line-height: 1.5;
-  }
-
-  .skills-heading {
-    font-size: 1.5rem;
-  }
-
-  .skills-list {
-    font-size: 0.9em;
+    font-size: 0.8em;
+    line-height: 1;
   }
 
   .profile-img {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
   }
 }
 
