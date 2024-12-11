@@ -319,12 +319,11 @@
     font-size: 0.9rem;  /* Reduced button font size */
     padding: 6px 12px;
   }
-  .profile{
-    margin-left:150px;
-  }
+ 
   .profile-img {
     width: 150px;  /* Even smaller profile image */
     height: 150px;
     margin-bottom: 15px;
+    margin-left:150px;
   }
 }
