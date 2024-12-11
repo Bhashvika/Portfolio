@@ -207,7 +207,7 @@
   }
 
   .info-box {
-    width: 100%; /* Full width for very small screens */
+    width: 80%; /* Full width for very small screens */
     padding: 8px;
     gap: 8px;
   }
