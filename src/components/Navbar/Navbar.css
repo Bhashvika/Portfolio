@@ -135,7 +135,6 @@ hr {
 
     .nav-left span {
         font-size: 32px;
-        
     }
 
     .navbar-right ul {
@@ -217,6 +216,46 @@ hr {
     .navbar-right ul a {
         font-size: 16px;  /* Adjust text size for smaller screens */
         margin: 8px 0;
+        text-align: left;
+    }
+}
+
+/* Ultra-small mobile devices with max-width of 350px */
+@media (max-width: 350px) {
+    .nav {
+        flex-direction: column;
+        padding: 5px; /* Reduced padding for ultra-small screens */
+    }
+
+    .nav-left h1 {
+        font-size: 20px;  /* Smaller heading font size */
+        text-align: center;
+    }
+
+    .nav-left span {
+        font-size: 20px;  /* Adjusted span size */
+        margin-left: 0;
+    }
+
+    /* Further reduced logo size for 350px screen */
+    .nav-left .logo {
+        width: 20px;  /* Smaller logo size for 350px screens */
+        height: 20px;
+        margin-right: 5px; /* Smaller gap between logo and text */
+        margin-left: -70px;
+        padding-bottom: 10px; /* Slightly more leftward shift */
+    }
+
+    .navbar-right ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        gap: 6px;
+    }
+
+    .navbar-right ul a {
+        font-size: 14px;  /* Smaller text size for ultra-small screens */
+        margin: 6px 0;
         text-align: left;
     }
 }
