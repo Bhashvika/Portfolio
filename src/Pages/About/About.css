@@ -165,6 +165,7 @@
     line-height: 1.6; /* Slightly tighter line-height */
     margin-bottom: 8px; /* Reduced margin */
     text-align: left; /* Left-align text */
+    margin-left:-50px;
   }
 
   .skills-heading {
