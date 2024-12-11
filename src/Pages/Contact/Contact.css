@@ -161,7 +161,9 @@
     padding-left: 5px;
     padding-right: 5px;
   }
-
+.contact1{
+  height:80vh;
+}
   .contact .content h1 {
     font-size: 1.4rem; /* Smaller heading for 416px screens */
   }
