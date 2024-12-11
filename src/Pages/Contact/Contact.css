@@ -169,6 +169,9 @@
   .contact .content p {
     font-size: 0.75rem; /* Smaller subtext for small screens */
   }
+  .contact1{
+    height:100px;
+  }
 
   .info-box {
     width: 70%; /* Full width for very small screens */
