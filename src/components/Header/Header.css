@@ -273,3 +273,56 @@
     margin-bottom: 40px;
   }
 }
+
+/* Ultra-small mobile devices with max-width of 350px */
+@media (max-width: 350px) {
+  .Header {
+    padding: 5px; /* Reduced padding for ultra-small screens */
+  }
+
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .column {
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .greeting {
+    font-size: 2rem;  /* Smaller font size for greeting */
+    margin-bottom: 5px;
+  }
+
+  .heading-name {
+    font-size: 1.8rem;  /* Reduced font size */
+  }
+
+  .main-name {
+    font-size: 2.5rem;  /* Adjusted font size for small screens */
+  }
+
+  .typewriter-container {
+    font-size: 1.4rem;  /* Reduced typewriter font size */
+  }
+
+  .btn {
+    font-size: 0.9rem;  /* Reduced button font size */
+    padding: 6px 12px;
+  }
+
+  .profile-img {
+    width: 150px;  /* Even smaller profile image */
+    height: 150px;
+    margin-bottom: 15px;
+  }
+}
