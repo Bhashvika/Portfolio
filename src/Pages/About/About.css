@@ -1,0 +1,276 @@
+/* About Section Styles */
+
+.About {
+  font-family: 'Arial', sans-serif;
+  padding: 50px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.about-content {
+  max-width: 2000px;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+}
+
+.about-heading {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.about-description {
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.skills-heading {
+  font-size: 1.8em;
+  color: #2c3e50;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.2em;
+}
+
+.skills-list li {
+  padding: 5px 0;
+  color: #34495e;
+}
+
+.about-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile responsive adjustments for screens with max-width 450px */
+@media (max-width: 450px) {
+  .About {
+    padding: 10px 15px; /* Reduced padding for very small screens */
+  }
+
+  .about-content {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .column {
+    max-width: 100%;
+    text-align: left;
+    padding: 8px;
+  }
+
+  .about-heading {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  .about-description {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  .skills-heading {
+    font-size: 1.5rem;
+  }
+
+  .skills-list {
+    font-size: 0.9em;
+  }
+
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Responsive adjustments for screens with max-width 768px */
+@media (max-width: 768px) {
+  .About {
+    padding: 10px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .column {
+    max-width: 100%;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .about-heading {
+    font-size: 2rem;
+  }
+
+  .about-description {
+    font-size: 1.1em;
+  }
+
+  .profile-img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Responsive adjustments for screens with width from 769px to 810px */
+@media (min-width: 769px) and (max-width: 810px) {
+  .About {
+    padding: 25px 35px;
+  }
+
+  .about-content {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+  }
+
+  .row {
+    gap: 20px;
+  }
+
+  .column {
+    flex: 1;
+    max-width: 48%;
+    padding: 20px;
+  }
+
+  .about-heading {
+    font-size: 2.2rem;
+  }
+
+  .about-description {
+    font-size: 1.15em;
+  }
+
+  .profile-img {
+    width: 270px;
+    height: 270px;
+  }
+}
+
+/* Responsive adjustments for screens with width from 881px to 1250px */
+@media (min-width: 881px) and (max-width: 1250px) {
+  .About {
+    padding: 30px 50px;
+  }
+
+  .about-content {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+  }
+
+  .row {
+    gap: 25px;
+  }
+
+  .column {
+    flex: 1;
+    max-width: 45%;
+    padding: 25px;
+  }
+
+  .about-heading {
+    font-size: 2.4rem;
+  }
+
+  .about-description {
+    font-size: 1.2em;
+  }
+
+  .profile-img {
+    width: 280px;
+    height: 280px;
+    margin-bottom: 35px;
+  }
+}
+
+/* For larger screens (above 1250px) */
+@media (min-width: 1251px) {
+  .About {
+    padding: 40px 60px;
+  }
+
+  .about-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+
+  .row {
+    gap: 30px;
+  }
+
+  .column {
+    flex: 1;
+    max-width: 45%;
+    padding: 25px;
+  }
+
+  .about-heading {
+    font-size: 2.5rem;
+  }
+
+  .about-description {
+    font-size: 1.3em;
+  }
+
+  .profile-img {
+    width: 320px;
+    height: 320px;
+    margin-bottom: 40px;
+  }
+}

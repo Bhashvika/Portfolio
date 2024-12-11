@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+body {
+    background-color: gainsboro;
+    padding: 10px 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px 40px;
+    background-color: transparent;
+}
+
+hr {
+    height: 3px;
+    background-color: black;
+    margin: 10px 20px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-left .logo {
+    width: 40px; /* Default size for logo */
+    height: 40px;
+    object-fit: cover;
+    margin-right: 10px; /* Space between logo and text */
+}
+
+.nav-left h1 {
+    font-size: 35px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(60, 43, 77);
+}
+
+.nav-left span {
+    font-size: 35px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(60, 43, 77);
+}
+
+.navbar-right ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-decoration: none;
+    font-family: "Bona Nova SC", serif;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.navbar-right ul Link {
+    font-family: "Bona Nova SC", serif;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.navbar-right #link {
+    text-decoration: none;
+}
+
+.navbar-right .active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgb(224, 50, 50);
+}
+
+.navbar-right ul a:hover {
+    color: blueviolet;
+}
+
+/* Mobile devices (portrait and landscape) */
+@media (max-width: 767px) {
+    .nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav-left h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .nav-left span {
+        font-size: 28px;
+        margin-left: 0;
+    }
+
+    /* Adjust logo size for mobile */
+    .nav-left .logo {
+        width: 30px;  /* Smaller logo size for mobile */
+        height: 30px;
+        margin-right: 8px; /* Smaller space between logo and text */
+        margin-left: -80px;
+        margin-bottom: 20px; /* Move the logo to the left */
+    }
+
+    .navbar-right ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        gap: 10px;
+    }
+
+    .navbar-right ul a {
+        font-size: 18px;
+        margin: 10px 0;
+        text-align: left;
+    }
+}
+
+/* Tablets and small desktops */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nav {
+        padding: 15px 30px;
+        margin-right: 20px;
+    }
+
+    .nav-left h1 {
+        font-size: 32px;
+    }
+
+    .nav-left span {
+        font-size: 32px;
+        
+    }
+
+    .navbar-right ul {
+        gap: 10px;
+    }
+
+    .navbar-right ul a {
+        font-size: 20px;
+    }
+
+    .nav-left .logo {
+        width: 35px;  /* Adjust logo size for tablets */
+        height: 35px;
+    }
+}
+
+/* Large desktops and above */
+@media (min-width: 1025px) {
+    .nav {
+        padding: 0px 40px;
+    }
+
+    .nav-left h1 {
+        font-size: 35px;
+    }
+
+    .nav-left span {
+        font-size: 35px;
+        margin-left: 30px;
+    }
+
+    .navbar-right ul {
+        gap: 15px;
+    }
+
+    .navbar-right ul a {
+        font-size: 22px;
+    }
+
+    .nav-left .logo {
+        width: 40px; /* Default logo size for larger screens */
+        height: 40px;
+    }
+}
+
+/* Mobile devices with max-width of 400px */
+@media (max-width: 400px) {
+    .nav {
+        flex-direction: column;
+        padding: 5px; /* Reduced padding for tighter layout */
+    }
+
+    .nav-left h1 {
+        font-size: 24px;  /* Smaller heading font size for smaller screens */
+        text-align: center;
+    }
+
+    .nav-left span {
+        font-size: 24px;  /* Adjusted span size */
+        margin-left: 0;
+    }
+
+    /* Adjust logo size for ultra-small mobile screens */
+    .nav-left .logo {
+        width: 25px;  /* Even smaller logo size for screens 400px and below */
+        height: 25px;
+        margin-right: 10px; /* Even smaller gap between logo and text */
+        margin-left: -70px;
+        padding-bottom: 20px; /* Slightly more leftward shift */
+    }
+
+    .navbar-right ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        gap: 8px;
+    }
+
+    .navbar-right ul a {
+        font-size: 16px;  /* Adjust text size for smaller screens */
+        margin: 8px 0;
+        text-align: left;
+    }
+}
