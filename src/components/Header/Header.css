@@ -275,6 +275,7 @@
 }
 
 /* Ultra-small mobile devices with max-width of 350px */
+/* Ultra-small mobile devices with max-width of 350px */
 @media (max-width: 350px) {
   .Header {
     padding: 5px; /* Reduced padding for ultra-small screens */
@@ -299,12 +300,12 @@
   }
 
   .greeting {
-    font-size: 2rem;  /* Smaller font size for greeting */
+    font-size: 1.8rem;  /* Smaller font size for greeting */
     margin-bottom: 5px;
   }
 
   .heading-name {
-    font-size: 1.8rem;  /* Reduced font size */
+    font-size: 1.6rem;  /* Further reduced font size for ultra-small screens */
   }
 
   .main-name {
@@ -312,18 +313,17 @@
   }
 
   .typewriter-container {
-    font-size: 1.4rem;  /* Reduced typewriter font size */
+    font-size: 1.3rem;  /* Reduced typewriter font size */
   }
 
   .btn {
-    font-size: 0.9rem;  /* Reduced button font size */
-    padding: 6px 12px;
+    font-size: 0.8rem;  /* Reduced button font size */
+    padding: 5px 10px;  /* Adjusted button padding for smaller screens */
   }
  
   .profile-img {
-    width: 150px;  /* Even smaller profile image */
-    height: 150px;
-    margin-bottom: 15px;
-    margin-left:150px;
+    width: 120px;  /* Even smaller profile image */
+    height: 120px;
+    margin-bottom: 10px;
   }
 }
