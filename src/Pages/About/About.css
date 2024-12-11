@@ -87,7 +87,7 @@
   .about-content {
     flex-direction: column;
     align-items: flex-start; /* Align content to the left */
-    max-width: 100%; /* Ensure the content fits */
+    max-width: 120%; /* Ensure the content fits */
     padding: 5px; /* Reduced padding */
   }
 
